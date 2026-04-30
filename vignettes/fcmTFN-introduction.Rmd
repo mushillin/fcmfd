@@ -1,0 +1,71 @@
+---
+title: "Introduction to fcmfd"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to fcmfd}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+
+library(fcmfd)
+
+set.seed(123)
+```
+
+# Introduction
+
+The **fcmfd** package implements fuzzy clustering
+for ordinal Likert-type data using triangular
+fuzzy numbers (TFNs).
+
+# Example Dataset
+
+```{r}
+data(sim_likert7)
+
+head(sim_likert7)
+```
+
+# Running the Clustering Algorithm
+
+```{r}
+result <- fcmTFN(
+  data = sim_likert7,
+  option = "B",
+  k_values = 2:6
+)
+
+summary(result)
+```
+
+# Cluster Assignment
+
+```{r}
+clusters <- cluster_assignment(result)
+
+table(clusters)
+```
+
+# Prototype Interpretation
+
+```{r}
+prototype_matrix(result)
+```
+
+# Xie-Beni Index Visualization
+
+```{r}
+plot_xb(result)
+```
+
+# Conclusion
+
+This vignette demonstrated the basic workflow
+for fuzzy clustering of Likert-type data
+using the **fcmfd** package.
