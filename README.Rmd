@@ -104,15 +104,15 @@ to provide a framework tailored for ordinal data.
 
 ## References
 
-Coppi, R., D'Urso, P., & Giordani, P. (2011).  
-Fuzzy clustering of fuzzy data.  
-Computational Statistics & Data Analysis.  
-https://doi.org/10.1016/j.csda.2010.09.013  
+Coppi, R., D'Urso, P., & Giordani, P. (2011).
+Fuzzy clustering of fuzzy data.
+*Computational Statistics & Data Analysis*.
+<https://doi.org/10.1016/j.csda.2010.09.013>
 
-Xie, X. L., & Beni, G. (1991).  
+Xie, X. L., & Beni, G. (1991).
 A validity measure for fuzzy clustering.
-IEEE Transactions on Pattern Analysis and Machine Intelligence.
-https://doi.org/10.1109/34.85677
+*IEEE Transactions on Pattern Analysis and Machine Intelligence*.
+<https://doi.org/10.1109/34.85677>
 
 ---
 

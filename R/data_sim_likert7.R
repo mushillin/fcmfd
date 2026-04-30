@@ -27,9 +27,9 @@
 #' The dataset was generated using three
 #' latent profiles centered approximately at:
 #'
-#' • Low agreement (≈2)
-#' • Moderate agreement (≈4)
-#' • High agreement (≈6)
+#' • Low agreement (\eqn{\approx} 2)
+#' • Moderate agreement (\eqn{\approx} 4)
+#' • High agreement (\eqn{\approx} 6)
 #'
 #' Each cluster contains 100 observations.
 #'

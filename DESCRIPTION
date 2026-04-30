@@ -8,8 +8,8 @@ Description: Implements a fuzzy clustering approach for ordinal Likert-type data
     fuzzy C-means algorithm to better handle uncertainty in ordinal scales and
     includes automatic selection of the number of clusters using the Xie-Beni
     validity index. References: Coppi, R., D'Urso, P., and Giordani, P. (2012),
-    Fuzzy and possibilistic clustering for fuzzy data, doi:10.1016/j.csda.2010.09.013. Xie, X. L. and Beni, G.
-    (1991), A validity measure for fuzzy clustering, doi:10.1109/34.85677.
+    Fuzzy and possibilistic clustering for fuzzy data, <doi:10.1016/j.csda.2010.09.013>. Xie, X. L. and Beni, G.
+    (1991), A validity measure for fuzzy clustering, <doi:10.1109/34.85677>.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

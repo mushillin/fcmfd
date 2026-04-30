@@ -9,11 +9,11 @@
 #' @references
 #' Coppi, R., D'Urso, P., & Giordani, P. (2012).
 #' Fuzzy and possibilistic clustering for fuzzy data.
-#' doi:10.1016/j.csda.2010.09.013
+#' <doi:10.1016/j.csda.2010.09.013>
 #'
 #' Xie, X. L., & Beni, G. (1991).
 #' A validity measure for fuzzy clustering.
-#' doi:10.1109/34.85677
+#' <doi:10.1109/34.85677>
 #'
 #' @importFrom graphics axis box lines par segments text
 #' @importFrom stats runif
