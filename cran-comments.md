@@ -2,16 +2,25 @@
 
 0 errors | 0 warnings | 1 note
 
-* This is a new release.
-
 ## Test environments
+
 * local Windows 11 install, R 4.3.1
 * ubuntu-release (on R-hub v2)
 * linux R-devel (on R-hub v2)
 
-## R CMD check results
+## Notes
 
-There were no ERRORs or WARNINGs.
+* This is a new submission.
 
-There was 1 NOTE:
-* This is a new release.
+* The NOTE flags the following words as possibly misspelled in DESCRIPTION.
+  All are intentional and correct:
+
+  - 'Likert': standard term in psychometrics and survey methodology.
+  - 'TFNs': acronym for Triangular Fuzzy Numbers, defined in the Description
+    field itself ("triangular fuzzy numbers (TFNs)").
+  - 'possibilistic': standard adjective in fuzzy logic and clustering
+    literature (e.g., possibilistic C-means).
+  - 'Coppi', 'D'Urso', 'Giordani': surnames of authors cited in the
+    References section of the Description field.
+  - 'Xie', 'Beni': surnames of authors cited in the References section
+    of the Description field (Xie-Beni validity index).

@@ -17,29 +17,23 @@ fcmTFN(
 )
 }
 \arguments{
-\item{data}{A data.frame or matrix containing
-ordinal Likert-type values.}
+\item{data}{A data.frame or matrix containing ordinal Likert-type responses. Rows represent observations (respondents) and columns represent variables (items or dimensions). All values must be integers within the range defined by the selected scale option.}
 
-\item{type}{Dictionary type
-("symmetric" or "asymmetric").}
+\item{type}{A character string specifying the type of fuzzy dictionary to use. Must be one of "symmetric" for predefined symmetric triangular fuzzy numbers, or "asymmetric" for a user-defined custom dictionary. Defaults to "symmetric".}
 
-\item{option}{Dictionary option
-("A", "B", "C", or "D").}
+\item{option}{A character string indicating the Likert scale option. Must be one of "A" (5-point scale, 1–5), "B" (7-point scale, 1–7), "C" (10-point scale, 1–10), or "D" (11-point scale, 0–10). Defaults to "B".}
 
-\item{dictionary}{Optional custom dictionary
-for asymmetric definitions.}
+\item{dictionary}{An optional numeric matrix with 3 columns (l, c, r) representing the lower bound, modal value, and upper bound of each triangular fuzzy number. Required when type = "asymmetric"; ignored when type = "symmetric". Defaults to NULL.}
 
-\item{k_values}{Numeric vector of candidate
-numbers of clusters.}
+\item{k_values}{A numeric vector specifying the candidate numbers of clusters to evaluate. The algorithm runs independently for each value of k. Defaults to 2:6.}
 
-\item{m}{Fuzzifier parameter (m > 1).}
+\item{m}{Fuzzifier parameter (m > 1) specifying the fuzzifier parameter, which controls the degree of membership overlap between clusters. Higher values produce softer partitions. Defaults to 2.}
 
-\item{epsilon}{Convergence tolerance.}
+\item{epsilon}{A positive numeric value specifying the convergence tolerance. The algorithm stops when the change in the objective function between iterations falls below this threshold. Defaults to 1e-06.}
 
-\item{max_iter}{Maximum number of iterations.}
+\item{max_iter}{A positive integer specifying the maximum number of iterations allowed per run. If convergence is not reached within this limit, a warning is issued. Defaults to 1000.}
 
-\item{verbose}{Logical; if TRUE,
-prints progress messages.}
+\item{verbose}{A logical value. If TRUE, progress messages are printed to the console during execution, including iteration count and convergence status for each value of k. Defaults to TRUE.}
 }
 \value{
 An object of class
