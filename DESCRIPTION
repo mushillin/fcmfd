@@ -1,7 +1,7 @@
 Package: fcmfd
 Type: Package
 Title: Fuzzy C-Means for Fuzzy Data
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: person("José", "Ortigas", email = "jose.ortigas@unmsm.edu.pe", role = c("aut", "cre"))
 Description: Implements a fuzzy clustering approach for ordinal Likert-type data
     using triangular fuzzy numbers (TFNs). The package extends the classical
