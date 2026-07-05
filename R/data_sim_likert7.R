@@ -1,37 +1,33 @@
 #' Simulated Likert 1–7 Survey Dataset
 #'
-#' A simulated Likert-type dataset with three
-#' well-separated clusters. Designed for testing
-#' fuzzy clustering of ordinal data.
+#' A simulated Likert-type dataset with three well-separated clusters,
+#' specifically designed for testing fuzzy clustering of ordinal data.
 #'
-#' The dataset contains responses measured
-#' on a 1–7 Likert scale across 12 variables.
-#'
-#' @format A data.frame with 300 rows and 12 variables:
+#' @format A data frame with 300 rows and 12 variables:
 #' \describe{
-#'   \item{Q1}{Likert response (1–7)}
-#'   \item{Q2}{Likert response (1–7)}
-#'   \item{Q3}{Likert response (1–7)}
-#'   \item{Q4}{Likert response (1–7)}
-#'   \item{Q5}{Likert response (1–7)}
-#'   \item{Q6}{Likert response (1–7)}
-#'   \item{Q7}{Likert response (1–7)}
-#'   \item{Q8}{Likert response (1–7)}
-#'   \item{Q9}{Likert response (1–7)}
-#'   \item{Q10}{Likert response (1–7)}
-#'   \item{Q11}{Likert response (1–7)}
-#'   \item{Q12}{Likert response (1–7)}
+#'   \item{Q1}{Simulated survey response measured on a 1–7 Likert scale.}
+#'   \item{Q10}{Simulated survey response measured on a 1–7 Likert scale.}
+#'   \item{Q11}{Simulated survey response measured on a 1–7 Likert scale.}
+#'   \item{Q12}{Simulated survey response measured on a 1–7 Likert scale.}
+#'   \item{Q2}{Simulated survey response measured on a 1–7 Likert scale.}
+#'   \item{Q3}{Simulated survey response measured on a 1–7 Likert scale.}
+#'   \item{Q4}{Simulated survey response measured on a 1–7 Likert scale.}
+#'   \item{Q5}{Simulated survey response measured on a 1–7 Likert scale.}
+#'   \item{Q6}{Simulated survey response measured on a 1–7 Likert scale.}
+#'   \item{Q7}{Simulated survey response measured on a 1–7 Likert scale.}
+#'   \item{Q8}{Simulated survey response measured on a 1–7 Likert scale.}
+#'   \item{Q9}{Simulated survey response measured on a 1–7 Likert scale.}
 #' }
 #'
 #' @details
-#' The dataset was generated using three
-#' latent profiles centered approximately at:
-#'
-#' • Low agreement (\eqn{\approx} 2)
-#' • Moderate agreement (\eqn{\approx} 4)
-#' • High agreement (\eqn{\approx} 6)
-#'
-#' Each cluster contains 100 observations.
+#' The dataset contains 300 observations divided into three distinct clusters
+#' of 100 observations each. Data generation was based on three latent profiles
+#' centered approximately at:
+#' \itemize{
+#'   \item \strong{Low agreement:} \eqn{\approx} 2
+#'   \item \strong{Moderate agreement:} \eqn{\approx} 4
+#'   \item \strong{High agreement:} \eqn{\approx} 6
+#' }
 #'
 #' @source Simulated data generated for package examples.
 #'

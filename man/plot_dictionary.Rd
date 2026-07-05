@@ -4,13 +4,18 @@
 \alias{plot_dictionary}
 \title{Plot Fuzzy Dictionary}
 \usage{
-plot_dictionary(object)
+plot_dictionary(object, show_title = TRUE, ...)
 }
 \arguments{
 \item{object}{An object of class "fcmTFN".}
+
+\item{show_title}{Logical. If TRUE (default),
+displays the plot title.}
+
+\item{...}{Additional graphical parameters.}
 }
 \value{
-A plot showing triangular membership functions.
+Invisibly returns NULL.
 }
 \description{
 Plots the triangular fuzzy numbers

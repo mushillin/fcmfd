@@ -1,0 +1,26 @@
+#' Student Wellbeing During COVID-19
+#'
+#' Survey data on subjective well-being, optimism, gratitude, emotional closeness,
+#' worry, and depression, collected from university students.
+#'
+#' All variables are measured on an 11-point ordinal scale ranging from 0 to 10,
+#' where higher values indicate greater satisfaction.
+#'
+#' @format A data frame with 651 rows and 9 variables:
+#' \tabular{ll}{
+#'   Q13.1 \tab Satisfaction with life overall. \cr
+#'   Q13.2 \tab Satisfaction with life at the present moment. \cr
+#'   Q13.3 \tab Satisfaction with oneself. \cr
+#'   Q13.4 \tab Satisfaction with physical appearance. \cr
+#'   Q13.5 \tab Satisfaction with ability to communicate with others. \cr
+#'   Q13.6 \tab Satisfaction with overall health. \cr
+#'   Q13.7 \tab Satisfaction with achievements in life so far. \cr
+#'   Q13.8 \tab Satisfaction with the college. \cr
+#'   Q13.9 \tab Satisfaction with college classmates. \cr
+#' }
+#'
+#' @source Martinez, L., Valencia, I., Trofimoff, V., & Valenzuela, L. S. (2020).
+#' Students wellbeing during COVID-19. <doi:10.17632/w9brygpwg7.2>
+#'
+#' @keywords datasets
+"students_wellbeing"

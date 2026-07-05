@@ -4,14 +4,18 @@
 \alias{plot_xb}
 \title{Plot Xie-Beni Index}
 \usage{
-plot_xb(object, mark_optimal = TRUE, type = "b", ...)
+plot_xb(object, mark_optimal = TRUE, type = "b", show_title = TRUE, ...)
 }
 \arguments{
 \item{object}{An object of class "fcmTFN".}
 
 \item{mark_optimal}{Logical. Whether to highlight the optimal k.}
 
-\item{type}{Plot type (default = "b").}
+\item{type}{Character string indicating the plotting style
+(default = "b").}
+
+\item{show_title}{Logical. If TRUE (default),
+displays the plot title.}
 
 \item{...}{Additional graphical parameters.}
 }

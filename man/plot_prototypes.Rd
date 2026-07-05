@@ -7,19 +7,28 @@
 plot_prototypes(
   object,
   cluster = 1,
+  view = c("single", "global"),
   use_var_names = FALSE,
   var_names = NULL,
+  show_title = TRUE,
   ...
 )
 }
 \arguments{
 \item{object}{An object of class "fcmTFN".}
 
-\item{cluster}{Integer cluster to plot.}
+\item{cluster}{Integer cluster to plot when
+view = "single".}
+
+\item{view}{Character string indicating the
+visualization mode. Either "single" or "global".}
 
 \item{use_var_names}{Logical.}
 
-\item{var_names}{Optional variable names.}
+\item{var_names}{Optional character vector of variable names.}
+
+\item{show_title}{Logical. If TRUE (default),
+displays the plot title.}
 
 \item{...}{Additional graphical parameters.}
 }

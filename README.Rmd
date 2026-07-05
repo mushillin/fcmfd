@@ -48,11 +48,11 @@ devtools::install_github("yourusername/fcmfd")
 library(fcmfd)
 
 # Load dataset
-data(sim_likert_0_10)
+data(sim_likert7)
 
 # Run clustering
 result <- fcmTFN(
-  data = sim_likert_0_10,
+  data = sim_likert7,
   option = "B",
   k_values = 2:6
 )
@@ -74,9 +74,6 @@ plot_xb(result)
 
 * **sim_likert7**
   Simulated dataset with a 1–7 Likert scale
-
-* **sim_likert_0_10**
-  Simulated dataset with a 0–10 Likert scale and latent cluster structure
 
 ---
 
